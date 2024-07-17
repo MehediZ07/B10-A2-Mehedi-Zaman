@@ -1,9 +1,166 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pinyon+Script&family=Playwrite+CU:wght@100..400&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: "Inter", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+/* header section style start here  */
+
+.header {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(17, 17, 17, 0.889),
+    rgb(17, 17, 17)
+  );
+}
+
+.nav-bar-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar-container > .page-title {
+  color: rgb(230, 83, 60);
+  font-size: 2.1rem;
+  font-weight: 800;
+  text-align: left;
+}
+.nav-menu > ul {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+.nav-menu > ul > li {
+  padding-right: 30px;
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.nav-menu > ul > li > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.hamburger {
+  color: rgb(235, 10, 10);
+  width: 20px;
+}
+.primary-btn,
+#download-btn {
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px 8px 20px;
+  border-radius: 46px;
+  color: white;
+  background: rgb(230, 83, 60);
+  border: none;
+}
+
+/* hero banner style start here  */
+.hero-banner-container {
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.hero-banner-content,
+.hero-banner-img {
+  width: 50%;
+}
+.hero-banner-content > h1 {
+  color: rgb(255, 255, 255);
+  font-size: 4.75rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 110%;
+  padding-bottom: 40px;
+}
+.hero-banner-content > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+#download-btn {
+  background: none;
+  border: 1px solid white;
+}
+#special-1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  font-weight: 100;
+  display: inline-block;
+  -webkit-transform: scale(1.1, 2.8);
+  padding: 10px;
+  z-index: 1;
+}
+.hero-banner-img {
+  position: relative;
+  padding-left: 13%;
+}
+.banner-small-box-2,
+.banner-small-box-1 {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  gap: 20px;
+  padding: 8% 20px;
+  color: white;
+}
+.banner-small-box-2 > div > h1,
+.banner-small-box-1 > h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.banner-small-box-2 > div > p,
+.banner-small-box-1 > p {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.small-box-container {
+  position: absolute;
+}
+.banner-small-box-1 {
+  width: 100%;
+  margin-left: 160%;
+  margin-top: -340%;
+}
+.banner-small-box-2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30%;
+  width: 110%;
+  margin-left: -58%;
+  margin-top: 165%;
 }
