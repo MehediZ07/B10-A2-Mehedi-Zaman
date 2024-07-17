@@ -176,6 +176,7 @@ img {
 .change-your-habits-container {
   max-width: 1040px;
   margin: 0 auto;
+  padding-bottom: 7%;
 }
 .change-your-habits-content {
   margin-top: 10%;
@@ -226,6 +227,40 @@ img {
   text-align: center;
 }
 
+/* run an extra section style start here */
+
 .run-an-extra-container {
+  padding: 2.5%;
+  width: 1060px;
+  margin: 0 auto;
+  border-radius: 18px;
+  background-color: rgb(34, 34, 34);
   display: flex;
+  margin-bottom: 5%;
+}
+
+.run-an-extra-content {
+  width: 60%;
+  padding-right: 22%;
+}
+
+.run-an-extra-content > h1 {
+  color: rgb(255, 255, 255);
+  padding-bottom: 5%;
+  font-size: 3rem;
+  text-align: left;
+}
+.run-an-extra-content > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 7%;
+}
+
+.run-an-extra-img {
+  width: 40%;
+}
+.run-an-extra-img > img {
+  border-radius: 18px;
 }
