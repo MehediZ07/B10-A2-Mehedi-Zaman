@@ -269,3 +269,42 @@ img {
 .run-an-extra-img {
   width: 35%;
 }
+/* three-time-meal-container style start here  */
+
+.three-time-meal-container {
+  max-width: 1040px;
+  margin: 0 auto;
+  color: white;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(7, 5, 33, 0.796);
+  padding: 2.5% 2.5% 0 2.5%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 18px;
+}
+.three-time-meal-container > h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Dancing Script", cursive;
+}
+.three-time-meal-box {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3%;
+}
+
+.meal-box > img {
+  border-radius: 8%;
+  height: 55%;
+}
+.meal-box > h1 {
+  margin-top: 5%;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+}
+.meal-box > p {
+  margin-top: 5%;
+  color: rgba(255, 255, 255, 0.5);
+}
