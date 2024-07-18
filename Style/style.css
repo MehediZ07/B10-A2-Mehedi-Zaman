@@ -216,7 +216,8 @@ img {
 .habits-box > img {
   border-radius: 50%;
   height: 80%;
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
+  border: 5px solid rgba(56, 55, 55, 0.815);
 }
 .habits-box > h1 {
   color: rgb(255, 255, 255);
