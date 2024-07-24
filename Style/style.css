@@ -100,6 +100,10 @@ img {
   line-height: 110%;
   padding-bottom: 1.3%;
 }
+#special-1 {
+  font-family: "Playwrite CU", cursive;
+  font-weight: 200;
+}
 .hero-banner-content > p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
