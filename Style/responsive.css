@@ -84,21 +84,24 @@
     padding-left: 0;
   }
   .hero-banner-img-container {
-    padding: 20% 18% 0 18%;
+    padding: 20% 20% 0 20%;
     overflow: hidden;
   }
   .hero-banner-img-container > img {
     transform: scale(1.5);
   }
+
   .banner-small-box-1 {
     width: 100%;
-    margin-left: 85%;
-    margin-top: -280%;
+    margin-left: 87%;
+    margin-top: -270%;
+    padding: 8% 10px;
   }
   .banner-small-box-2 {
     width: 105%;
     margin-left: -20%;
     margin-top: 80%;
+    padding: 8% 10px;
   }
   /* change-your-habits-section responsive style start here  */
   .change-your-habits-content > h1 {
@@ -122,9 +125,6 @@
   .habits-box {
     padding: 10%;
   }
-  .habits-box > img {
-    height: 67%;
-  }
   .habits-box > h1 {
     margin-top: 10%;
     font-size: 1.5rem;
@@ -134,6 +134,7 @@
     font-weight: 250;
     line-height: 1.5rem;
   }
+
   /* run an extra responsive section style start here */
   .run-an-extra-container {
     margin-top: 60%;

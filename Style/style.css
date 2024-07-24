@@ -333,7 +333,7 @@ img {
   margin-top: 5%;
   color: white;
   background-color: rgb(34, 34, 34);
-  padding-bottom: 12%;
+  padding-bottom: 5%;
 }
 .bmi-calculator-section {
   margin-top: 5%;
@@ -463,7 +463,7 @@ select option {
 .meet-our-team-container {
   max-width: 1040px;
   margin: 0 auto;
-  padding-top: 15%;
+  padding-top: 5%;
   align-items: center;
   text-align: center;
   padding-bottom: 6%;
@@ -476,14 +476,13 @@ select option {
 .meet-our-team-container > p {
   color: rgba(255, 255, 255, 0.5);
   padding: 2% 0 8% 0;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 2rem;
 }
 .meet-our-team-content {
-  margin-top: 6%;
   padding: 1.4em;
   background-color: rgb(24, 24, 24);
   display: grid;
