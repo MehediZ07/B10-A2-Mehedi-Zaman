@@ -253,7 +253,7 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 2.5%;
-  width: 1060px;
+  max-width: 1060px;
   margin: 0 auto;
   border-radius: 18px;
   background-color: rgb(34, 34, 34);
