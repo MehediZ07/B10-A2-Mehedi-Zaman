@@ -83,22 +83,22 @@
   .hero-banner-img-container {
     padding-left: 0;
   }
-  .hero-banner-img {
-    padding: 0 18%;
+  .hero-banner-img-container {
+    padding: 20% 18% 0 18%;
     overflow: hidden;
   }
-  .hero-banner-img > img {
-    transform: scale(1.8);
+  .hero-banner-img-container > img {
+    transform: scale(1.5);
   }
   .banner-small-box-1 {
     width: 100%;
-    margin-left: 130%;
-    margin-top: -360%;
+    margin-left: 85%;
+    margin-top: -280%;
   }
   .banner-small-box-2 {
     width: 105%;
-    margin-left: 20%;
-    margin-top: 90%;
+    margin-left: -20%;
+    margin-top: 80%;
   }
   /* change-your-habits-section responsive style start here  */
   .change-your-habits-content > h1 {
@@ -116,8 +116,8 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 3%;
-    margin-bottom: 40%;
+    grid-gap: 1%;
+    margin-bottom: 20%;
   }
   .habits-box {
     padding: 10%;
