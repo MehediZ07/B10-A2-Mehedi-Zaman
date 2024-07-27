@@ -235,8 +235,12 @@
   .form-fillup {
     margin-right: 1em;
   }
+  .form-fillup-1st-four-option {
+    grid-template-columns: repeat(2, 50%);
+  }
   #factor {
     width: calc(100% + 1em);
+    cursor: pointer;
   }
   /* Meet our team section responsive style start here  */
   .large-device {
