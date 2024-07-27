@@ -240,7 +240,6 @@
   }
   #factor {
     width: calc(100% + 1em);
-    cursor: pointer;
   }
   /* Meet our team section responsive style start here  */
   .large-device {
