@@ -23,7 +23,9 @@ img {
   height: 100%;
 }
 /* header section style start here  */
-
+.hide {
+  display: none;
+}
 .header {
   max-width: 1440px;
   margin: 0 auto;
@@ -49,6 +51,7 @@ img {
   font-size: 2.1rem;
   font-weight: 800;
   text-align: left;
+  /* padding-left: 5%; */
 }
 .nav-menu > ul {
   display: flex;
@@ -179,7 +182,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10%;
-  width: 110%;
+  width: 100%;
   margin-left: -58%;
   margin-top: 120%;
 }
