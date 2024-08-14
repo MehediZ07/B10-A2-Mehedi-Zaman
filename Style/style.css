@@ -32,7 +32,7 @@ img {
   background: linear-gradient(
     180deg,
     rgb(6, 6, 6),
-    rgba(31, 31, 31, 0.879),
+    rgba(14, 14, 14, 0.879),
     rgb(6, 6, 6)
   );
 }
@@ -101,7 +101,7 @@ img {
   font-weight: 900;
   text-align: left;
   line-height: 110%;
-  padding-bottom: 1.3%;
+  padding-bottom: 5%;
 }
 #special-1 {
   font-family: "Playwrite CU", cursive;
@@ -112,6 +112,7 @@ img {
   font-size: 1rem;
   font-weight: 400;
   text-align: left;
+  line-height: 150%;
   padding-bottom: 10%;
 }
 
@@ -119,18 +120,19 @@ img {
 #download-btn {
   justify-content: center;
   align-items: center;
-  padding: 16px 40px 16px 40px;
+  padding: 16px 50px 16px 50px;
   border-radius: 46px;
   color: white;
   background: rgb(230, 83, 60);
   border: none;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 #download-btn {
   background: none;
   border: 1px solid white;
-  padding: 16px 40px 16px 40px;
+  margin-left: 3%;
 }
 
 .hero-banner-img-container {
@@ -213,6 +215,7 @@ img {
   text-align: center;
   width: 60%;
   margin: 0 auto;
+  line-height: 150%;
   padding-bottom: 10%;
 }
 
@@ -244,7 +247,7 @@ img {
 }
 .habits-box > p {
   color: rgba(255, 255, 255, 0.5);
-
+  line-height: 150%;
   font-size: 0.8rem;
   font-weight: 400;
   text-align: center;
@@ -277,10 +280,11 @@ img {
   text-align: left;
 }
 .run-an-extra-content > p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(189, 189, 189, 0.5);
   font-size: 0.9rem;
   font-weight: 400;
   text-align: left;
+  line-height: 150%;
   padding-bottom: 7%;
 }
 .run-an-extra-content > button {
@@ -328,7 +332,7 @@ img {
 }
 .meal-box > p {
   margin-top: 5%;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(189, 189, 189, 0.5);
 }
 
 /* BMI Calculator section style start here  */
@@ -355,7 +359,7 @@ img {
 .bmi-calculator-section > p {
   padding-top: 1.5%;
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(219, 219, 219, 0.5);
   margin: 0 26%;
   font-weight: 250;
   line-height: 1.7rem;
@@ -408,7 +412,7 @@ td {
   font-size: 0.9rem;
   width: 10rem;
   font-weight: 250;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(219, 219, 219, 0.5);
 }
 .form-content {
   width: 55%;
@@ -418,10 +422,10 @@ td {
 }
 .form-content > p {
   margin-top: 4%;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 250;
   line-height: 1.8rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(219, 219, 219, 0.5);
 }
 
 .form-content > button {
@@ -483,7 +487,7 @@ select option {
   color: white;
 }
 .meet-our-team-container > p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(189, 189, 189, 0.5);
   padding: 2% 0 8% 0;
   width: 80%;
   margin: 0 auto;
@@ -513,7 +517,7 @@ select option {
 }
 .meet-our-team-member > p {
   position: absolute;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(189, 189, 189, 0.5);
   padding-left: 1%;
   font-size: 0.9rem;
   margin-top: -2.3%;
@@ -544,7 +548,7 @@ select option {
   text-align: left;
 }
 .footer-content-1 > p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(189, 189, 189, 0.5);
   padding-top: 5%;
   line-height: 1.8rem;
   font-weight: 250;
@@ -559,7 +563,7 @@ select option {
 .footer-content-2 > ul > li,
 .footer-content-3 > ul > li {
   list-style: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(189, 189, 189, 0.5);
   font-size: 1.5rem;
   line-height: 3rem;
   font-weight: 300;
@@ -573,7 +577,7 @@ select option {
 }
 .footer-container > p {
   padding: 5% 0;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(189, 189, 189, 0.5);
   font-size: 1.4rem;
   font-weight: 300;
 }
