@@ -337,8 +337,7 @@ img {
 
 /* BMI Calculator section style start here  */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+
   background-color: #121212;
 }
 
@@ -494,6 +493,7 @@ select option {
   font-size: 1.2rem;
   color: #f0f0f0;
 }
+
 
 /* Meet our team section style start here  */
 .meet-our-team-container {
