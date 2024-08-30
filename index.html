@@ -336,44 +336,42 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
      <script>
     document.querySelector('.primary-btn').addEventListener('click', function() {
-        // Get input values
-        const height = parseFloat(document.getElementById('height').value);
-        const weight = parseFloat(document.getElementById('weight').value);
-        const age = parseInt(document.getElementById('age').value);
-        const sex = document.getElementById('sex').value;
-        const factor = document.getElementById('factor').value;
+    // Get input values
+    const height = parseFloat(document.getElementById('height').value);
+    const weight = parseFloat(document.getElementById('weight').value);
+    const age = parseInt(document.getElementById('age').value);
+    const sex = document.getElementById('sex').value;
+    const factor = document.getElementById('factor').value;
 
-        // Debugging: Log input values
-        console.log(`Height: ${height}, Weight: ${weight}, Age: ${age}, Sex: ${sex}, Factor: ${factor}`);
+    // Validate inputs
+    if (isNaN(height) || isNaN(weight) || isNaN(age) || height <= 0 || weight <= 0 || age <= 0 || !sex || !factor) {
+        document.getElementById('result').innerHTML = 'Please fill in all fields correctly.';
+        return;
+    }
 
-        // Validate inputs
-        if (isNaN(height) || isNaN(weight) || isNaN(age) || height <= 0 || weight <= 0 || age <= 0 || sex === '#' || factor === '#') {
-            document.getElementById('result').innerHTML = 'Please fill in all fields correctly.';
-            return;
-        }
+    // Convert height from cm to meters
+    const heightInMeters = height / 100;
 
-        // Convert height from cm to meters
-        const heightInMeters = height / 100;
+    // Calculate BMI
+    const bmi = weight / (heightInMeters ** 2);
+    const bmiRounded = bmi.toFixed(2);
 
-        // Calculate BMI
-        const bmi = weight / (heightInMeters * heightInMeters);
-        const bmiRounded = bmi.toFixed(2);
+    // Output result
+    let resultText = `Your BMI is ${bmiRounded}. `;
+    if (bmi < 18.5) {
+        resultText += 'You are underweight.';
+    } else if (bmi < 24.9) {
+        resultText += 'You have a healthy weight.';
+    } else if (bmi < 29.9) {
+        resultText += 'You are overweight.';
+    } else {
+        resultText += 'You are obese.';
+    }
 
-        // Output result
-        let resultText = `Your BMI is ${bmiRounded}. `;
-        if (bmi < 18.5) {
-            resultText += 'You are underweight.';
-        } else if (bmi < 24.9) {
-            resultText += 'You have a healthy weight.';
-        } else if (bmi < 29.9) {
-            resultText += 'You are overweight.';
-        } else {
-            resultText += 'You are obese.';
-        }
+    // Display the result
+    document.getElementById('result').innerHTML = resultText;
+});
 
-        // Display the result
-        document.getElementById('result').innerHTML = resultText;
-    });
     </script>
 </body>
 
